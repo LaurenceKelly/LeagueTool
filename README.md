@@ -32,6 +32,8 @@ flask\Scripts\pip install flipflop
 
 flask\Scripts\pip install coverage
 
+flask\Scripts\pip install requests
+
 How to run
 =========
 
