@@ -1,0 +1,11 @@
+*.pyc
+*.pyo
+app.db
+search.db
+flask
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hi, {{ user.nickname }}!</h1>
+    <p>
+      Click to search for Diana:
+      (Not useable yet)
+      <br><br>
+      Attempt to make a string here:<br>
+      {{ baz }}
+      <br><br>
+      Attempting to make another string down here:<br>
+      {{ bar }}
+      <br><br>
+      Riot API request data pasted here:<br>
+      Summoner - {{ summonerName }}<br>
+      ID:{{ sumID }}<br>
+      Name:{{ sumName }}<br>
+      Level:{{ sumLevel }}<br>
+<!--      {{ testString }} -->
+      <br><br><br>
+      Testing database here:<br>
+      <br>
+      Data in Player table for one - {{ playerOne.id, playerOne.name, playerOne.level }}
+      <br><br>
+      Another test for database:<br>
+      <br>
+      All data in Player table -
+      {% for p in players %}
+        {{ p.id,p.name,p.level }}
+      {% endfor %}
+      <br><br>
+      What is this???<br>
+      {{ responseJSON }}
+    </p>
+{% endblock %}

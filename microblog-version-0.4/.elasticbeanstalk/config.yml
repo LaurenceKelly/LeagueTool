@@ -1,0 +1,22 @@
+branch-defaults:
+  default:
+    environment: leaguetool-env
+    group_suffix: null
+environment-defaults:
+  leaguetool-env:
+    branch: null
+    repository: null
+global:
+  application_name: leaguetool
+  branch: null
+  default_ec2_keyname: null
+  default_platform: Python 3.4
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: null
+  workspace_type: Application
