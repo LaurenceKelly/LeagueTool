@@ -6,7 +6,11 @@ A league of legends tool.
 Packages used
 =========
 
-These commands were used to install the needed packages for this program. From the microblog-version-0.4 directory, use pip to install each of the following:
+Before installing the necessary packages, I created a virtual environment using the following command:
+
+python -m venv flask
+
+These commands were then used to install the needed packages for this program. From the microblog-version-0.4 directory, use pip to install each of the following:
 
 flask\Scripts\pip install flask
 
