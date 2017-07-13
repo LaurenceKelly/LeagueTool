@@ -20,3 +20,6 @@ global:
   repository: null
   sc: null
   workspace_type: Application
+option_settings:
+  "aws:elasticbeanstalk:container:python":
+    WSGIPath: microblog-version-0.4/app/views.py
