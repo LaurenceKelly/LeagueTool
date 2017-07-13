@@ -10,7 +10,7 @@ def makingStrings():
 
 def tempReq(playerName):
     tempURL = 'https://na.api.riotgames.com/api/lol/NA/v1.4/summoner/by-name/'#Chinchilla?api_key='
-    apiKey = 'RGAPI-83876d54-625e-4554-a8ee-32b1875becd9'
+    apiKey = 'RGAPI-1923fcb8-b559-4750-a4d4-077027deb133'
     URL = tempURL + playerName + '?api_key=' + apiKey
     response = requests.get(URL)
     return response.json()
@@ -42,7 +42,7 @@ def league():
     user = {'nickname': 'Summoner'}
     baz = makingStrings()
     bar = makeString()
-    summonerName = 'trippinzdawg'
+    summonerName = 'chinchilla'
  #   testString = reqURL()
     responseJSON = tempReq(summonerName)
     #sumID = responseJSON['chinchilla']['id']
