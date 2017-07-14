@@ -40,3 +40,8 @@ How to run
 To run this program, I used the following command from the microblog-version-0.4 directory:
 flask\Scripts\python application.py
 Then proceed to the local page with the correct port (default 5000).
+
+NOTE
+=========
+
+In the app/views.py file, the database commands to add users u and k have been commented out, since it only needs to be done once to get the users in the database. On first run will need to uncomment these lines, then comment them out/delete them for future use or program will crash because those unique players were already added.
