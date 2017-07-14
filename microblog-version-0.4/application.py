@@ -1,3 +1,3 @@
 #!flask/bin/python
 from app import application
-application.run(debug=False)
+application.run(host='0.0.0.0')
